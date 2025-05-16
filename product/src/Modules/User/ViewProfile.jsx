@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../../../src/Product.css'
+import { Link } from 'react-router-dom';
 
 function ViewProfile(){
      const[items,setItems] =useState([]);
@@ -24,6 +24,7 @@ function ViewProfile(){
             <th>Password</th>
             <th>Email</th>
             <th>Address</th>
+            <th>Action</th>
             </tr>
         </thead>
         <tbody>    
@@ -34,8 +35,10 @@ function ViewProfile(){
                     <td>{password}</td> 
                     <td>{email}</td>
                     <td>{address}</td>
-                    {/* <td><img src={'data:image/jpeg;base64,'+image} height={50} width={50}/></td> */}
-                     
+                    <td><Link to={`/update/${userId}`}>
+    <button>Update</button>
+  </Link></td> 
+                       
                     </tr>
                    </tbody>
     </table>

@@ -1,5 +1,5 @@
 .update-wrapper {
-
+  background-image: url('https://cdn.pixabay.com/photo/2018/04/28/11/21/update-3357083_640.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,18 +26,18 @@
 .update-card h2 {
   text-align: center;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .update-card .form-label {
-  color: #f1f1f1;
+  color: #000000;
   font-weight: 500;
 }
 
 .update-card .form-control {
   background: rgba(255, 255, 255, 0.2);
   border: none;
-  color: #fff;
+  color: #100b0b;
   margin-bottom: 15px;
   border-radius: 8px;
 }
