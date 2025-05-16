@@ -29,7 +29,7 @@ const appRoute={
         </div>
 
         <div style={{display:"flex", height:"80vh"}}>
-          <div style={{backgroundColor:'lightgreen', width:"20%", flexDirection:"column"}}>
+          <div style={{backgroundColor:'ligth', width:"20%", flexDirection:"column"}}>
             <SideNav/>
           </div>
 

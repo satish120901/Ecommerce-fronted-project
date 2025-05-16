@@ -10,6 +10,7 @@ import About from './Header/About'
 import Home from './Header/Home'
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Header from './Header/Header'
+import Dashboard from './DashBoard/Dashboard'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
+        <Route path='/dashboard/*' element={<Dashboard/>}></Route>
       </Routes>
 
       </BrowserRouter>

@@ -21,7 +21,7 @@ function SideNav()
        <div style={{display:"flex",flexDirection:"column", alignItems:"center"}}>
         {
           
-          options["User"].map((btn,index)=> <Link className="btn btn-success m-2 " style={{width:"120px"}}key={index} to={btn.to}>{btn.label}</Link>)
+          options["User"].map((btn,index)=> <Link className="btn btn-info m-2 " style={{width:"120px"}}key={index} to={btn.to}>{btn.label}</Link>)
         }
         </div>
     </div>
