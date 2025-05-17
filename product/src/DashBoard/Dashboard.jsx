@@ -16,7 +16,7 @@ const appRoute={
       {path:'/',component:<Home/>},
       {path:'Viewcart', component:<ViewCart/>},
       {path:'Account',   component:<ViewProfile/>},
-      {path:'ViewProducts',   component:<ViewProduct/>},
+      {path:'ViewProduct',   component:<ViewProduct/>},
 
     ],
 }

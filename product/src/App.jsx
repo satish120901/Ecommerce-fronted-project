@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Register from './Header/Register'
@@ -8,9 +6,11 @@ import Login from './Header/Login'
 import Contact from './Header/Contact'
 import About from './Header/About'
 import Home from './Header/Home'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './Header/Header'
 import Dashboard from './DashBoard/Dashboard'
+import Update from './Modules/User/Update'
+
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
         <Route path='/dashboard/*' element={<Dashboard/>}></Route>
+        <Route path='/update/:userId' element={<Update />} />
       </Routes>
 
       </BrowserRouter>

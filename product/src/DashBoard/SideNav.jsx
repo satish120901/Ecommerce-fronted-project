@@ -11,7 +11,7 @@ function SideNav()
       {label:'ViewCart', to:'/dashboard/Viewcart'},
       {label:'Account',to:'/dashboard/Account'},
       {label:'Logout' ,to:'/Logout'},
-      {label:'ViewProducts',to:'/dashboard/ViewProducts'},
+      {label:'ViewProduct',to:'/dashboard/ViewProduct'},
     ]
   }
 
